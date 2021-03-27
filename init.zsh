@@ -46,18 +46,5 @@ p6df::modules::wakatime::langs() {
 ######################################################################
 p6df::modules::wakatime::init() {
 
-  p6df::modules::wakatime::wakatime::init
-}
-
-######################################################################
-#<
-#
-# Function: p6df::modules::wakatime::wakatime::init()
-#
-#>
-######################################################################
-p6df::modules::wakatime::wakatime::init() {
-
   . $P6_DFZ_SRC_DIR/sobolevn/wakatime-zsh-plugin/wakatime.plugin.zsh
 }
-

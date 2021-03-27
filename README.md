@@ -1,10 +1,10 @@
-# p6df-vscode
+# p6df-wakatime
 
 ## Table of Contents
 
 
-### p6df-vscode
-- [p6df-vscode](#p6df-vscode)
+### p6df-wakatime
+- [p6df-wakatime](#p6df-wakatime)
   - [Badges](#badges)
   - [Distributions](#distributions)
   - [Summary](#summary)
@@ -17,12 +17,12 @@
 ### Badges
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6df-vscode)
-[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6df-vscode/&style=flat)](https://mergify.io)
-[![codecov](https://codecov.io/gh/p6m7g8/p6df-vscode/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6df-vscode)
-[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6df-vscode/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6df-vscode?targetFile=package.json)
-[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6df-vscode)](https://github.com/p6m7g8/p6df-vscode/network/dependents?dependent_type=REPOSITORY)
-[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6df-vscode)](https://github.com/p6m7g8/p6df-vscode/network/dependents?dependent_type=PACKAGE)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6df-wakatime)
+[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6df-wakatime/&style=flat)](https://mergify.io)
+[![codecov](https://codecov.io/gh/p6m7g8/p6df-wakatime/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6df-wakatime)
+[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6df-wakatime/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6df-wakatime?targetFile=package.json)
+[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6df-wakatime)](https://github.com/p6m7g8/p6df-wakatime/network/dependents?dependent_type=REPOSITORY)
+[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6df-wakatime)](https://github.com/p6m7g8/p6df-wakatime/network/dependents?dependent_type=PACKAGE)
 
 ## Summary
 
@@ -40,21 +40,14 @@
 
 ## Usage
 
-### p6df-vscode:
+### p6df-wakatime:
 
-#### p6df-vscode/init.zsh:
+#### p6df-wakatime/init.zsh:
 
-- code rc = p6_vscode_cmd(cmd, ...)
-- p6_vscode_add([dir=.])
-- p6_vscode_new([dir=.])
-- p6_vscode_tmux_add()
-- p6df::modules::vscode::aliases::init()
-- p6df::modules::vscode::deps()
-- p6df::modules::vscode::external::brew()
-- p6df::modules::vscode::home::symlink()
-- p6df::modules::vscode::init()
-- p6df::modules::vscode::langs()
-- p6df::modules::vscode::wakatime::init()
+- p6df::modules::wakatime::deps()
+- p6df::modules::wakatime::home::symlink()
+- p6df::modules::wakatime::init()
+- p6df::modules::wakatime::langs()
 
 
 
