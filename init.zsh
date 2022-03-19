@@ -22,8 +22,7 @@ p6df::modules::wakatime::deps() {
 ######################################################################
 p6df::modules::wakatime::home::symlink() {
 
-  echo ln -fs $P6_DFZ_SRC_P6M7G8_DIR/p6df-wakatime/share/w* .
-#  ln -fs $P6_DFZ_SRC_P6M7G8_DIR/p6df-wakatime/share/w* .
+  ln -fs $P6_DFZ_SRC_P6M7G8_DOTFILES_DIR/p6df-wakatime/share/w* .
 }
 
 ######################################################################
