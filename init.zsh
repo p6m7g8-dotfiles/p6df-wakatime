@@ -18,6 +18,7 @@ p6df::modules::wakatime::deps() {
 #
 # Function: p6df::modules::wakatime::home::symlink()
 #
+#  Environment:	 P6_DFZ_SRC_P6M7G8_DOTFILES_DIR
 #>
 ######################################################################
 p6df::modules::wakatime::home::symlink() {
@@ -42,6 +43,7 @@ p6df::modules::wakatime::langs() {
 #
 # Function: p6df::modules::wakatime::init()
 #
+#  Environment:	 P6_DFZ_SRC_DIR
 #>
 ######################################################################
 p6df::modules::wakatime::init() {
