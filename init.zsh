@@ -41,12 +41,20 @@ p6df::modules::wakatime::langs() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::wakatime::init()
+# Function: p6df::modules::wakatime::init(_module, dir)
+#
+#  Args:
+#	_module -
+#	dir -
 #
 #  Environment:	 P6_DFZ_SRC_DIR
 #>
 ######################################################################
 p6df::modules::wakatime::init() {
+  local _module="$1"
+  local dir="$2"
 
-  . $P6_DFZ_SRC_DIR/sobolevn/wakatime-zsh-plugin/wakatime.plugin.zsh
+  p6_file_load "$P6_DFZ_SRC_DIR/sobolevn/wakatime-zsh-plugin/wakatime.plugin.zsh"
+
+  p6_return_void
 }
